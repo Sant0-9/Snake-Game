@@ -1,0 +1,79 @@
+================================================================================
+                       INSTALL & BUILD GUI VERSION NOW
+================================================================================
+
+Ready to turn your Snake game into a real GUI app? Follow these steps:
+
+================================================================================
+OPTION 1: AUTOMATIC INSTALLATION (EASIEST)
+================================================================================
+
+Copy and paste this ONE command:
+
+    cd /home/oneknight/projects/Snake-Game && ./INSTALL_NOW.sh
+
+This will:
+1. Install SDL2 libraries (requires sudo password)
+2. Build the GUI version automatically
+3. Tell you when it's ready!
+
+================================================================================
+OPTION 2: MANUAL STEP-BY-STEP
+================================================================================
+
+If you prefer to do it step by step:
+
+STEP 1 - Install SDL2 (enter password when prompted):
+    sudo apt-get update
+    sudo apt-get install -y libsdl2-dev libsdl2-ttf-dev libsdl2-mixer-dev libsdl2-image-dev fonts-dejavu
+
+STEP 2 - Build the GUI version:
+    cd /home/oneknight/projects/Snake-Game
+    make clean
+    make snake_gui
+
+STEP 3 - Run it!
+    ./snake_gui
+
+================================================================================
+WHAT TO EXPECT
+================================================================================
+
+After installation completes (takes 1-2 minutes):
+
+✓ A new window will open (800x600 pixels)
+✓ You'll see a smooth, colorful Snake game
+✓ No more terminal - it's a real GUI app!
+✓ Control with arrow keys or WASD
+✓ Beautiful graphics and effects
+
+================================================================================
+CONTROLS IN GUI VERSION
+================================================================================
+
+Arrow Keys / WASD  - Move
+SPACE              - Pause/Resume
+R                  - Restart
+ESC                - Quit
+
+================================================================================
+TROUBLESHOOTING
+================================================================================
+
+Problem: "Permission denied"
+Solution: Make script executable: chmod +x INSTALL_NOW.sh
+
+Problem: "sudo: command not found"
+Solution: You need administrator access to install libraries
+
+Problem: Build errors
+Solution: Check error messages, might need build tools:
+          sudo apt-get install build-essential
+
+================================================================================
+
+READY? Run this command now:
+
+    ./INSTALL_NOW.sh
+
+================================================================================

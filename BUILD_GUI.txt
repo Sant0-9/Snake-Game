@@ -1,0 +1,94 @@
+================================================================================
+                    BUILD YOUR SNAKE GAME AS A REAL APP!
+================================================================================
+
+You want a proper GUI application instead of terminal? HERE IT IS!
+
+================================================================================
+STEP 1: INSTALL SDL2 (ONE-TIME SETUP)
+================================================================================
+
+Run this command:
+    ./install_sdl.sh
+
+Or manually:
+    sudo apt-get update
+    sudo apt-get install -y libsdl2-dev libsdl2-ttf-dev libsdl2-mixer-dev libsdl2-image-dev
+
+================================================================================
+STEP 2: BUILD THE GUI VERSION
+================================================================================
+
+    make clean
+    make snake_gui
+
+================================================================================
+STEP 3: RUN YOUR GUI APP!
+================================================================================
+
+    ./snake_gui
+
+Or simply:
+    make run-gui
+
+================================================================================
+
+WHAT YOU GET:
+-------------
+✓ Real GUI window (800x600 pixels)
+✓ Smooth graphics with circles instead of ASCII
+✓ Beautiful colors and glow effects
+✓ Always-visible score and status
+✓ Pause with SPACE
+✓ Restart with R
+✓ Professional look and feel
+
+CONTROLS:
+---------
+Arrow Keys or WASD = Move
+SPACE = Pause/Resume
+R = Restart (after game over)
+ESC = Quit
+
+FEATURES:
+---------
+✨ Hardware-accelerated graphics
+🎨 60 FPS smooth rendering
+🎯 Circular snake and fruit
+💫 Glow effect when invincible
+⚡ 5 power-ups with visual indicators
+🏆 High score tracking
+📊 Always-visible HUD
+
+================================================================================
+
+TROUBLESHOOTING:
+----------------
+Problem: "SDL2 not found"
+Solution: Run ./install_sdl.sh
+
+Problem: "Font not found"  
+Solution: sudo apt-get install fonts-dejavu
+
+Problem: Compilation errors
+Solution: sudo apt-get install build-essential libsdl2-dev libsdl2-ttf-dev
+
+================================================================================
+
+COMPARISON:
+
+Terminal Version:           GUI Version:
+#########                   +------------------+
+# O   X #                   |  [Real Window]   |
+# o     #                   |                  |
+#########                   |    ●●● 🟢      |
+Score: 10                   |      ●   🔴     |
+                            |                  |
+                            |  Score: 10       |
+                            +------------------+
+
+================================================================================
+
+See GUI_SETUP.md for detailed instructions!
+
+================================================================================
