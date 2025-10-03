@@ -1,0 +1,25 @@
+# Build artifacts
+snake_game
+snake_game_linux
+modern_snake
+*.o
+*.exe
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Game data files (optional - comment out if you want to commit scores)
+snake_config.txt
+leaderboard.txt
+
+# Temporary files
+*.tmp
+*.log

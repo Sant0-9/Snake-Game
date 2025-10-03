@@ -1,0 +1,72 @@
+================================================================================
+                    HOW TO RUN YOUR FIXED SNAKE GAME
+================================================================================
+
+The game logic has been FIXED! Here's how to run it:
+
+QUICK START (Copy and paste this):
+-----------------------------------
+cd /home/oneknight/projects/Snake-Game && make run
+
+That's it! The game will start immediately.
+
+================================================================================
+
+CONTROLS:
+---------
+  W = Up
+  A = Left
+  S = Down
+  D = Right
+  P = Pause
+  X = Quit
+
+POWER-UPS (Yellow Letters):
+---------------------------
+  S = Speed Boost
+  D = Double Points (2x score!)
+  I = Invincible (walk through walls!)
+  G = Growth (+3 segments)
+  R = Shrink (-3 segments)
+
+================================================================================
+
+WHAT WAS BROKEN:
+----------------
+✗ Menu system caused immediate exit
+✗ Terminal input wasn't working
+✗ Complex configuration caused initialization issues
+
+WHAT'S FIXED:
+-------------
+✓ Game starts immediately - no broken menus
+✓ Controls work perfectly
+✓ Power-ups spawn and work correctly
+✓ Proper collision detection
+✓ Smooth gameplay with increasing speed
+✓ High score tracking
+✓ Play again feature
+
+================================================================================
+
+VERSIONS AVAILABLE:
+
+1. snake_modern_fixed (WORKING - USE THIS!)
+   Command: make run
+   Features: Colors, power-ups, smooth gameplay
+
+2. snake_game_linux (Simple backup)
+   Command: make run-linux  
+   Features: Basic classic snake
+
+================================================================================
+
+FILE: snake_modern_fixed.cpp
+- Single file implementation
+- All features working
+- No complex dependencies
+- Clean game logic
+
+See HOWTO.md for more details!
+
+================================================================================
